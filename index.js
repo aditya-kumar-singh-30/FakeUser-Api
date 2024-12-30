@@ -1,5 +1,6 @@
 const express = require("express");
 const fs = require("fs");
+const cors = require("cors");
 const users = require("./MOCK_DATA.json");
 const app = express();
 app.use(express.urlencoded({extended : true}));
